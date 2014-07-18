@@ -5,10 +5,6 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 $(call inherit-product-if-exists, vendor/lge/lgl34c/lgl34c-vendor.mk)
 
-# Device uses low-density artwork where available
-PRODUCT_AAPT_CONFIG := normal mdpi hdpi xhdpi 
-PRODUCT_AAPT_PREF_CONFIG := mdpi
-
 DEVICE_PACKAGE_OVERLAYS += device/lge/lgl34c/overlay
 
 LOCAL_PATH := device/lge/lgl34c
