@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH):/recovery/ueventd.lgl34c.rc:root/ueventd.lgl34c.rc \
-     device/lge/lgl34c/recovery/fstab.lgl34c:root/recovery/etc/twrp.fstab \
+     device/lge/lgl34c/recovery/fstab.lgl34:recovery/root/etc/twrp.fstab \
      device/lge/lgl34c/recovery/fstab.lgl34c:root/fstab.lgl34c
 #    device/lge/lgl34c/recovery/init.lgl34c.rc:root/init.lgl34c 
 
